@@ -19,30 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         let loginVC = self.createModule()
-        //ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
-        
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = loginVC
         window?.makeKeyAndVisible()
-        //navigationBarAppearance()
-        
-//
-//        if !UserAccount.shared.isAppLaunchingFirstTime {
-//            UserAccount.shared.clearAllSessionData()
-//        }
-//
-//
-//        if let languageCode = UserDefaults.standard.string(forKey: Constants.acceptLanguageKey) {
-//            Constants.acceptLanguage = languageCode
-//        } else {
-//            Constants.acceptLanguage = "vi"
-//        }
-//
-//        IQKeyboardManager.shared.enable = true
-//        IQKeyboardManager.shared.shouldResignOnTouchOutside = true
-//        DropDown.startListeningToKeyboard()
-//
-
         return true
     }
 
@@ -54,7 +33,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func createSplashLoginVC() -> TGOnBoardingViewController {
         let vc = TGOnBoardingViewController()
-        //self.navigationController?.pushViewController(vc, animated: true)
         return vc
     }
 

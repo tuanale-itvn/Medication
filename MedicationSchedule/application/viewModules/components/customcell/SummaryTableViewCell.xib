@@ -20,22 +20,22 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kbv-AA-GMq">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                        <rect key="frame" x="10" y="0.0" width="300" height="43.5"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DzK-AA-1LY">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="43.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8NH-EG-mTH">
-                                        <rect key="frame" x="0.0" y="0.0" width="60" height="43.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8NH-EG-mTH">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="43.5"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="60" id="dZT-wH-D3O"/>
+                                            <constraint firstAttribute="width" constant="70" id="dZT-wH-D3O"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYg-Rd-L4I">
-                                        <rect key="frame" x="60" y="0.0" width="260" height="43.5"/>
+                                        <rect key="frame" x="70" y="0.0" width="230" height="43.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -53,10 +53,10 @@
                     </view>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="kbv-AA-GMq" secondAttribute="trailing" id="IYn-wn-yQc"/>
-                    <constraint firstItem="kbv-AA-GMq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="OkK-X7-i1p"/>
+                    <constraint firstAttribute="trailing" secondItem="kbv-AA-GMq" secondAttribute="trailing" constant="10" id="M3a-2f-ZW1"/>
                     <constraint firstItem="kbv-AA-GMq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="g2Z-YQ-0Kf"/>
                     <constraint firstAttribute="bottom" secondItem="kbv-AA-GMq" secondAttribute="bottom" id="k02-LL-Sev"/>
+                    <constraint firstItem="kbv-AA-GMq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="kyo-6j-rXh"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

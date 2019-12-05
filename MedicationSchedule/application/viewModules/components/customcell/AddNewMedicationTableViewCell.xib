@@ -32,6 +32,9 @@
                                 <state key="normal" image="sharp_linked_camera_white">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="touchupCamera:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="fEu-L8-igc"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Medication name" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="KV5-6B-E9O">
                                 <rect key="frame" x="50" y="10" width="170" height="30"/>

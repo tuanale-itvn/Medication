@@ -41,8 +41,9 @@ extension TGSummaryViewController{
             if(status) {
                 self.mMedicationList = DateSection.group(records: medicationsModel)
                 self.mMedicationList.sort { lhs, rhs in lhs.date < rhs.date }
-                self.mContraintTableHeight!.constant = self.mTableView!.contentSize.height
                 self.mTableView.reloadData()
+                self.mTableView.layoutIfNeeded()
+                self.mContraintTableHeight!.constant = self.mTableView!.contentSize.height
             } else {
                 //TODO: - Show error
             }
@@ -75,7 +76,7 @@ extension TGSummaryViewController : UITableViewDelegate, UITableViewDataSource {
         let section = self.mMedicationList[section]
         let date = section.date
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "dd/mm/yyyy"
+        dateFormatter.dateFormat = DEFAULT_VALUE.DATE_FORMAT
         return dateFormatter.string(from: date)
     }
     
@@ -96,21 +97,42 @@ extension TGSummaryViewController : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 50
     }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 30
+    }
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        
+        let myLabel = UILabel()
+        myLabel.frame = CGRect(x: 0, y: 0, width: tableView.frame.width, height: 30)
+        myLabel.font = UIFont.boldSystemFont(ofSize: 17)
+        myLabel.text = self.tableView(tableView, titleForHeaderInSection: section)
+        
+        let headerView = UIView()
+        headerView.addSubview(myLabel)
+        
+        return headerView
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+
 }
 
 private func firstDayOfMonth(date: Date) -> Date {
     let calendar = Calendar.current
-    let components = calendar.dateComponents([.year, .month], from: date)
+    let components = calendar.dateComponents([.year, .month, .day], from: date)
     return calendar.date(from: components)!
 }
 private func parseDate(_ str : String) -> Date {
     let dateFormat = DateFormatter()
-    dateFormat.dateFormat = "dd/mm/yyyy"
+    dateFormat.dateFormat = DEFAULT_VALUE.DATE_FORMAT
     return dateFormat.date(from: str)!
 }
 struct DateSection {
     var date : Date
     var records : [MedicationRecordModel]
+    
     static func group(records : [MedicationRecordModel]) -> [DateSection] {
         let groups = Dictionary(grouping: records) { record in
             firstDayOfMonth(date: parseDate(record.mDoctorVisitTime))

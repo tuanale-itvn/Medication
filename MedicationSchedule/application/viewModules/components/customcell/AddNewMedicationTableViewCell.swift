@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class AddNewMedicationTableViewCell: UITableViewCell {
     static let identifier = "AddNewMedicationTableViewCell"
@@ -100,6 +101,7 @@ class AddNewMedicationTableViewCell: UITableViewCell {
             }
         }
     }
+    
     /*Reset data when to save done*/
     func resetData() {
         self.initUI()
@@ -108,6 +110,60 @@ class AddNewMedicationTableViewCell: UITableViewCell {
         self.mDose.resetValue()
         self.mTimeString = ""
         self.mLableAddTime.text = ""
+    }
+}
+
+extension AddNewMedicationTableViewCell : UIImagePickerControllerDelegate,
+UINavigationControllerDelegate{
+    @IBAction func touchupCamera(_ sender: Any) {
+        if self.checkCameraAccess(){
+            if UIImagePickerController.isSourceTypeAvailable(.camera) {
+                let imagePicker = UIImagePickerController()
+                imagePicker.delegate = self
+                imagePicker.sourceType = .camera;
+                imagePicker.allowsEditing = false
+                self.delegate!.present(imagePicker, animated: true, completion: nil)
+            }
+            else {presentCameraSettings()}
+        }
+    }
+    
+    func checkCameraAccess() -> Bool{
+        switch AVCaptureDevice.authorizationStatus(for: .video) {
+        case .denied:
+            presentCameraSettings()
+            return false
+        case .restricted:
+            return false
+        case .authorized:
+            return true
+        case .notDetermined:
+            AVCaptureDevice.requestAccess(for: .video) { success in
+                if success {
+                    print("Permission granted, proceed")
+                } else {
+                    print("Permission denied")
+                }
+            }
+            return false
+        default:
+            return false
+        }
+    }
+    
+    func presentCameraSettings() {
+        let alertController = UIAlertController(title: "Error",
+                                                message: "Camera access is error",
+                                                preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .default))
+        alertController.addAction(UIAlertAction(title: "Settings", style: .cancel) { _ in
+            if let url = URL(string: UIApplication.openSettingsURLString) {
+                UIApplication.shared.open(url, options: [:], completionHandler: { _ in
+                    // Handle
+                })
+            }
+        })
+        delegate!.present(alertController, animated: true)
     }
 }
 
