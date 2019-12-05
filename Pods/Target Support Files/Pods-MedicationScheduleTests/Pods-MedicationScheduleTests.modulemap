@@ -1,0 +1,6 @@
+framework module Pods_MedicationScheduleTests {
+  umbrella header "Pods-MedicationScheduleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

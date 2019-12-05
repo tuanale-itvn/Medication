@@ -1,0 +1,1069 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F6349BC7F1C0F3BDFD63082CCE32DB /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76E49F4D572909BAAEA1F672D4CF1D6 /* FTS4.swift */; };
+		13DC37325FD7C005D5757A7A24879CFB /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27947974CB1CD9EF3FC4ACE7582DC4ED /* Expression.swift */; };
+		16E32D96D226F5CA5ECE9021B4448A2C /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D93D0C244348A9C90000FEB7C118A5 /* Connection.swift */; };
+		18808F9C139BA0E9059E72980F0BF908 /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2164779DD99BF92DFFFB9002D843C1F /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		188E0D4F7200FED3C7A1245F9F913072 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E00874B4E700887680AB332E57C093 /* Coding.swift */; };
+		1B13B36FAC4CB8F57794A2B328FDA679 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD54FEF025C1FA5691488527B9B931E /* CoreFunctions.swift */; };
+		2C4F38367FEF4F7C72224D9EB87B7F71 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13762052A8E82DE0E49DD2B12405F7B4 /* Blob.swift */; };
+		31AAD13A75FA67A504E265924E542827 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118CE4A09F56D4A0F78360B2C1D9D3D5 /* Statement.swift */; };
+		348B481DC980D7B5252368E2A54CFBF9 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5087B8CD6E3F3619E84A687B7CA0C140 /* Foundation.swift */; };
+		3667F662EABF27295B2B723178B96AA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		36C201CD790253EF68723D30704A137F /* Pods-MedicationSchedule-MedicationScheduleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC039970C3AB5A791301804AF15F053B /* Pods-MedicationSchedule-MedicationScheduleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		444D048C8F52A4002F068AE6198AA5B7 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8002F7E4E908D2DDFF112B10D3C47D20 /* Query.swift */; };
+		4A50D35274D871E14260F93489F87E32 /* SQLiteObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = C38D49AE982F458CCB5B88C854C9E802 /* SQLiteObjc.m */; };
+		4E3EDCB1C27B3725FD8AEFD7E61B9E17 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388211A9F016FC1E5CEC41C93ADBBAB4 /* RTree.swift */; };
+		5AB7AA2D47C8BD4ED779FB58ADD2EB19 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756BD914162BC6648F002FBA778E750A /* Operators.swift */; };
+		5BA891FB2BE2492499DD30FAD3D2F399 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3EAD8B10E8156469A28130961AC2B /* Value.swift */; };
+		5D1D42009E941070E4EDDE947A881181 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6021B513535355B80F5DAA95C95E9406 /* Errors.swift */; };
+		5F75157A5075DECD1D4512F9A6744CA6 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EA48BBC1FB9EB585CD75DB03AF7E8D /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		67F339D752FFF174485AB6F96EC6FA7E /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AAD87137B68A7707B751BA94294743 /* SQLite.swift-dummy.m */; };
+		79E43357E56514CD6FE8A6F4B1D28C2E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096FF25977F76F37D4DE69F855F3618E /* Helpers.swift */; };
+		7F61A3B3EF47E0524250CC29A51D1B77 /* Pods-MedicationScheduleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDAADC715744B815180443DDCB8E464 /* Pods-MedicationScheduleTests-dummy.m */; };
+		9B3A040DEACD188FBA57F28AFAADB057 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BECF449A7505D33C87702B71A4BAF15 /* AggregateFunctions.swift */; };
+		A42659683986F68D9D4F244F1DB71C2F /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0110C4898BA61995219533E555E0C8 /* FTS5.swift */; };
+		A966409E4EB7EB56CBE6C9DFA0FC5B94 /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B58CBA404993AD749353E4324FACF8 /* DateAndTimeFunctions.swift */; };
+		AE4AD5BE716115DC3C73D9D50B99FDEC /* Pods-MedicationSchedule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 611CF58758DBA1983B98DA809E70FDD6 /* Pods-MedicationSchedule-dummy.m */; };
+		B1D89872AC365C78155FF44EE9F28FEF /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EEB7895E9FE9CC73D60D6E11382353 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9E535F6EA8ABCEDD64D17F246C8EFA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C64E97D5FC0802B08D7CA36AEC74A422 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85BB8D3304E7EAF06E3A85DC44094D8 /* CustomFunctions.swift */; };
+		D4BD3B29AE82A3D5D7585E6EF6CDB715 /* Pods-MedicationSchedule-MedicationScheduleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6705CBF84CA290F28FC3D02F33F0BFDD /* Pods-MedicationSchedule-MedicationScheduleUITests-dummy.m */; };
+		D6E6E2AA38E0E6B0B7D1E0891F4FD12D /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3711AB0A999131C8BD46538E947E7780 /* Setter.swift */; };
+		DD44A17C7665842E6AE218DC4B0572A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		ECA51F34CB2FE1DEE7A6B8799C5D8B93 /* Pods-MedicationSchedule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2311D3B306A0E1CC06015069CD0D8A56 /* Pods-MedicationSchedule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECB11C11C42731BAD581B25B7200CC52 /* Pods-MedicationScheduleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53258EF6436B33009D47C3E01A24ECF2 /* Pods-MedicationScheduleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE966B1A61C1960A3BBC22A783C27272 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5EC117360EF4B328EEFFB88A67623 /* Collation.swift */; };
+		EF5E32C13CFA779B953F8F81AE3C67D6 /* SQLiteObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5F36EE417F344885B6CEDEECB7F5F2 /* SQLiteObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6BB6C198A2522FF0633261964EB2A24 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EFD56C4BDA26D68586BA493DB3560 /* Schema.swift */; };
+		FBEB4E9323C624FB930D1F1DD0836051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		088D3764D0864B9850D7D9BF11255F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
+		};
+		4371D397FA7241956E6EF77F0324E339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
+		};
+		E742B849E88B9E5FC7DB4A720BF99BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BCDC78D9204C270CEADC18AE759142E;
+			remoteInfo = "Pods-MedicationSchedule";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059B26A094B4B8BBA6C1B33610BF2E8D /* Pods-MedicationSchedule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicationSchedule.debug.xcconfig"; sourceTree = "<group>"; };
+		06E00874B4E700887680AB332E57C093 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
+		06F3EAD8B10E8156469A28130961AC2B /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
+		088215B3ABFFEEED2CAE0D459D445CFF /* Pods-MedicationSchedule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicationSchedule.release.xcconfig"; sourceTree = "<group>"; };
+		0957EE9DF2887EA828670D844E0DE9EF /* Pods-MedicationSchedule-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedicationSchedule-frameworks.sh"; sourceTree = "<group>"; };
+		096FF25977F76F37D4DE69F855F3618E /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
+		0C83D8B89B8B8E244331A003E9EEF91A /* Pods-MedicationSchedule-MedicationScheduleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MedicationSchedule-MedicationScheduleUITests.modulemap"; sourceTree = "<group>"; };
+		10512E0C4F2407738898BDB82B6A4D28 /* Pods-MedicationScheduleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedicationScheduleTests-Info.plist"; sourceTree = "<group>"; };
+		118CE4A09F56D4A0F78360B2C1D9D3D5 /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
+		13762052A8E82DE0E49DD2B12405F7B4 /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		1F1EFD56C4BDA26D68586BA493DB3560 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		2311D3B306A0E1CC06015069CD0D8A56 /* Pods-MedicationSchedule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedicationSchedule-umbrella.h"; sourceTree = "<group>"; };
+		253603F7273BE97283612D6D864C6707 /* Pods-MedicationScheduleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicationScheduleTests.release.xcconfig"; sourceTree = "<group>"; };
+		26B58CBA404993AD749353E4324FACF8 /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
+		27947974CB1CD9EF3FC4ACE7582DC4ED /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3711AB0A999131C8BD46538E947E7780 /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		388211A9F016FC1E5CEC41C93ADBBAB4 /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
+		3B77B2762B9074FD2E414F43436F59A8 /* Pods-MedicationSchedule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedicationSchedule-Info.plist"; sourceTree = "<group>"; };
+		3E5F36EE417F344885B6CEDEECB7F5F2 /* SQLiteObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLiteObjc.h; path = Sources/SQLiteObjc/include/SQLiteObjc.h; sourceTree = "<group>"; };
+		43EEB7895E9FE9CC73D60D6E11382353 /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
+		45BD629DF62E1AFEAE6FE7CEBC202748 /* Pods-MedicationSchedule-MedicationScheduleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedicationSchedule-MedicationScheduleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5087B8CD6E3F3619E84A687B7CA0C140 /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+		53258EF6436B33009D47C3E01A24ECF2 /* Pods-MedicationScheduleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedicationScheduleTests-umbrella.h"; sourceTree = "<group>"; };
+		591781E93328A9E1E2F18C0F4154CCC1 /* Pods-MedicationSchedule-MedicationScheduleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicationSchedule-MedicationScheduleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AB3B4D83BF454E680B32615F06DABA2 /* SQLite.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLite.swift-Info.plist"; sourceTree = "<group>"; };
+		6021B513535355B80F5DAA95C95E9406 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
+		611CF58758DBA1983B98DA809E70FDD6 /* Pods-MedicationSchedule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedicationSchedule-dummy.m"; sourceTree = "<group>"; };
+		6705CBF84CA290F28FC3D02F33F0BFDD /* Pods-MedicationSchedule-MedicationScheduleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedicationSchedule-MedicationScheduleUITests-dummy.m"; sourceTree = "<group>"; };
+		6BECF449A7505D33C87702B71A4BAF15 /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		71842A26AE9A2F0D5F37459C28573E8D /* Pods_MedicationScheduleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MedicationScheduleTests.framework; path = "Pods-MedicationScheduleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756BD914162BC6648F002FBA778E750A /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
+		8002F7E4E908D2DDFF112B10D3C47D20 /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		85CEE5334C041B34488E56FC2C5A4F80 /* Pods-MedicationScheduleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicationScheduleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		88EA48BBC1FB9EB585CD75DB03AF7E8D /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Sources/SQLiteObjc/fts3_tokenizer.h; sourceTree = "<group>"; };
+		8F0110C4898BA61995219533E555E0C8 /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+		96BA999FAB87DC3D6653828008DEA407 /* Pods-MedicationScheduleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedicationScheduleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0B54C59A1DB588EE7ECE6A442155634 /* Pods_MedicationSchedule_MedicationScheduleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MedicationSchedule_MedicationScheduleUITests.framework; path = "Pods-MedicationSchedule-MedicationScheduleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2642AC7B4E4EA94926FD9C41FDAE056 /* SQLite.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.xcconfig; sourceTree = "<group>"; };
+		A9B2B192AC59D63F0D30E37DC5F73D08 /* Pods-MedicationScheduleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MedicationScheduleTests.modulemap"; sourceTree = "<group>"; };
+		B85BB8D3304E7EAF06E3A85DC44094D8 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		BB520671D102B8103AE37778D181CA90 /* Pods-MedicationSchedule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MedicationSchedule.modulemap"; sourceTree = "<group>"; };
+		C38D49AE982F458CCB5B88C854C9E802 /* SQLiteObjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQLiteObjc.m; path = Sources/SQLiteObjc/SQLiteObjc.m; sourceTree = "<group>"; };
+		D2164779DD99BF92DFFFB9002D843C1F /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
+		D3AAD87137B68A7707B751BA94294743 /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		D4A76A64568C1894608CBC5028B104C2 /* Pods-MedicationSchedule-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedicationSchedule-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D64088365BE3A60CCD3BB84ED3717AB8 /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		D76E49F4D572909BAAEA1F672D4CF1D6 /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		D8E9F8A8AA92F482BE502153F753DB79 /* Pods-MedicationScheduleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedicationScheduleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9E88F5B11C154AA4029E30B6412875A /* Pods-MedicationSchedule-MedicationScheduleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedicationSchedule-MedicationScheduleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		DC039970C3AB5A791301804AF15F053B /* Pods-MedicationSchedule-MedicationScheduleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedicationSchedule-MedicationScheduleUITests-umbrella.h"; sourceTree = "<group>"; };
+		DEDAADC715744B815180443DDCB8E464 /* Pods-MedicationScheduleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedicationScheduleTests-dummy.m"; sourceTree = "<group>"; };
+		DFD54FEF025C1FA5691488527B9B931E /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		E433E06A9EB427D6DA4F1C0D11254DFC /* Pods-MedicationSchedule-MedicationScheduleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedicationSchedule-MedicationScheduleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8606DAE8576D68BB5CF96E2BD37329E /* Pods-MedicationSchedule-MedicationScheduleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicationSchedule-MedicationScheduleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB9EF1EC17CC6975760EB206B3C2FC96 /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		EC31442B040C103C6C7AB5E9975CFEE0 /* Pods-MedicationSchedule-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedicationSchedule-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLite.framework; path = SQLite.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D93D0C244348A9C90000FEB7C118A5 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		FC628A1A7060E8D3695C5FD8C1CBC50D /* Pods_MedicationSchedule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MedicationSchedule.framework; path = "Pods-MedicationSchedule.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF5EC117360EF4B328EEFFB88A67623 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
+		FF2EF74ADA74B093047899F0A9293D67 /* Pods-MedicationSchedule-MedicationScheduleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedicationSchedule-MedicationScheduleUITests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33325C9178C57921C2955DA9CEBEB22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3667F662EABF27295B2B723178B96AA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DC26BE8ED6BB3E57EC282209CB9866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD44A17C7665842E6AE218DC4B0572A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B832A20F43C2552F6151DAAFAD3004B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEB4E9323C624FB930D1F1DD0836051 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF75FF884452C03FD101431D5A0D0524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E535F6EA8ABCEDD64D17F246C8EFA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B9183B744250B15C479859709BC19D5 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				6BECF449A7505D33C87702B71A4BAF15 /* AggregateFunctions.swift */,
+				13762052A8E82DE0E49DD2B12405F7B4 /* Blob.swift */,
+				06E00874B4E700887680AB332E57C093 /* Coding.swift */,
+				FDF5EC117360EF4B328EEFFB88A67623 /* Collation.swift */,
+				F8D93D0C244348A9C90000FEB7C118A5 /* Connection.swift */,
+				DFD54FEF025C1FA5691488527B9B931E /* CoreFunctions.swift */,
+				B85BB8D3304E7EAF06E3A85DC44094D8 /* CustomFunctions.swift */,
+				26B58CBA404993AD749353E4324FACF8 /* DateAndTimeFunctions.swift */,
+				6021B513535355B80F5DAA95C95E9406 /* Errors.swift */,
+				27947974CB1CD9EF3FC4ACE7582DC4ED /* Expression.swift */,
+				5087B8CD6E3F3619E84A687B7CA0C140 /* Foundation.swift */,
+				88EA48BBC1FB9EB585CD75DB03AF7E8D /* fts3_tokenizer.h */,
+				D76E49F4D572909BAAEA1F672D4CF1D6 /* FTS4.swift */,
+				8F0110C4898BA61995219533E555E0C8 /* FTS5.swift */,
+				096FF25977F76F37D4DE69F855F3618E /* Helpers.swift */,
+				756BD914162BC6648F002FBA778E750A /* Operators.swift */,
+				8002F7E4E908D2DDFF112B10D3C47D20 /* Query.swift */,
+				388211A9F016FC1E5CEC41C93ADBBAB4 /* RTree.swift */,
+				1F1EFD56C4BDA26D68586BA493DB3560 /* Schema.swift */,
+				3711AB0A999131C8BD46538E947E7780 /* Setter.swift */,
+				43EEB7895E9FE9CC73D60D6E11382353 /* SQLite.h */,
+				3E5F36EE417F344885B6CEDEECB7F5F2 /* SQLiteObjc.h */,
+				C38D49AE982F458CCB5B88C854C9E802 /* SQLiteObjc.m */,
+				118CE4A09F56D4A0F78360B2C1D9D3D5 /* Statement.swift */,
+				06F3EAD8B10E8156469A28130961AC2B /* Value.swift */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		115705D6EC762BE2E5D396D044BDB6E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D64088365BE3A60CCD3BB84ED3717AB8 /* SQLite.swift.modulemap */,
+				A2642AC7B4E4EA94926FD9C41FDAE056 /* SQLite.swift.xcconfig */,
+				D3AAD87137B68A7707B751BA94294743 /* SQLite.swift-dummy.m */,
+				5AB3B4D83BF454E680B32615F06DABA2 /* SQLite.swift-Info.plist */,
+				EB9EF1EC17CC6975760EB206B3C2FC96 /* SQLite.swift-prefix.pch */,
+				D2164779DD99BF92DFFFB9002D843C1F /* SQLite.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
+			sourceTree = "<group>";
+		};
+		2A4E6A752872B4E3DB84FA502170744F /* Pods-MedicationScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2B192AC59D63F0D30E37DC5F73D08 /* Pods-MedicationScheduleTests.modulemap */,
+				96BA999FAB87DC3D6653828008DEA407 /* Pods-MedicationScheduleTests-acknowledgements.markdown */,
+				D8E9F8A8AA92F482BE502153F753DB79 /* Pods-MedicationScheduleTests-acknowledgements.plist */,
+				DEDAADC715744B815180443DDCB8E464 /* Pods-MedicationScheduleTests-dummy.m */,
+				10512E0C4F2407738898BDB82B6A4D28 /* Pods-MedicationScheduleTests-Info.plist */,
+				53258EF6436B33009D47C3E01A24ECF2 /* Pods-MedicationScheduleTests-umbrella.h */,
+				85CEE5334C041B34488E56FC2C5A4F80 /* Pods-MedicationScheduleTests.debug.xcconfig */,
+				253603F7273BE97283612D6D864C6707 /* Pods-MedicationScheduleTests.release.xcconfig */,
+			);
+			name = "Pods-MedicationScheduleTests";
+			path = "Target Support Files/Pods-MedicationScheduleTests";
+			sourceTree = "<group>";
+		};
+		76F872B4EBEAB1032330AF4020EB5825 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF67FDD279B983A099A33A439FB25CA3 /* Pods-MedicationSchedule */,
+				EE794EF3DFA64AF7BCCF8227ECF472C5 /* Pods-MedicationSchedule-MedicationScheduleUITests */,
+				2A4E6A752872B4E3DB84FA502170744F /* Pods-MedicationScheduleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9C7F1875E201FDD0DED29CB3994FA086 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2D1FA394F2373A354EA383ECAECB35B /* SQLite.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF67FDD279B983A099A33A439FB25CA3 /* Pods-MedicationSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				BB520671D102B8103AE37778D181CA90 /* Pods-MedicationSchedule.modulemap */,
+				D4A76A64568C1894608CBC5028B104C2 /* Pods-MedicationSchedule-acknowledgements.markdown */,
+				EC31442B040C103C6C7AB5E9975CFEE0 /* Pods-MedicationSchedule-acknowledgements.plist */,
+				611CF58758DBA1983B98DA809E70FDD6 /* Pods-MedicationSchedule-dummy.m */,
+				0957EE9DF2887EA828670D844E0DE9EF /* Pods-MedicationSchedule-frameworks.sh */,
+				3B77B2762B9074FD2E414F43436F59A8 /* Pods-MedicationSchedule-Info.plist */,
+				2311D3B306A0E1CC06015069CD0D8A56 /* Pods-MedicationSchedule-umbrella.h */,
+				059B26A094B4B8BBA6C1B33610BF2E8D /* Pods-MedicationSchedule.debug.xcconfig */,
+				088215B3ABFFEEED2CAE0D459D445CFF /* Pods-MedicationSchedule.release.xcconfig */,
+			);
+			name = "Pods-MedicationSchedule";
+			path = "Target Support Files/Pods-MedicationSchedule";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C2D1FA394F2373A354EA383ECAECB35B /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				0B9183B744250B15C479859709BC19D5 /* standard */,
+				115705D6EC762BE2E5D396D044BDB6E6 /* Support Files */,
+			);
+			name = SQLite.swift;
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9C7F1875E201FDD0DED29CB3994FA086 /* Pods */,
+				E2362488A99E095215B95FA0D78F9C0D /* Products */,
+				76F872B4EBEAB1032330AF4020EB5825 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2362488A99E095215B95FA0D78F9C0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC628A1A7060E8D3695C5FD8C1CBC50D /* Pods_MedicationSchedule.framework */,
+				A0B54C59A1DB588EE7ECE6A442155634 /* Pods_MedicationSchedule_MedicationScheduleUITests.framework */,
+				71842A26AE9A2F0D5F37459C28573E8D /* Pods_MedicationScheduleTests.framework */,
+				F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE794EF3DFA64AF7BCCF8227ECF472C5 /* Pods-MedicationSchedule-MedicationScheduleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C83D8B89B8B8E244331A003E9EEF91A /* Pods-MedicationSchedule-MedicationScheduleUITests.modulemap */,
+				E433E06A9EB427D6DA4F1C0D11254DFC /* Pods-MedicationSchedule-MedicationScheduleUITests-acknowledgements.markdown */,
+				45BD629DF62E1AFEAE6FE7CEBC202748 /* Pods-MedicationSchedule-MedicationScheduleUITests-acknowledgements.plist */,
+				6705CBF84CA290F28FC3D02F33F0BFDD /* Pods-MedicationSchedule-MedicationScheduleUITests-dummy.m */,
+				D9E88F5B11C154AA4029E30B6412875A /* Pods-MedicationSchedule-MedicationScheduleUITests-frameworks.sh */,
+				FF2EF74ADA74B093047899F0A9293D67 /* Pods-MedicationSchedule-MedicationScheduleUITests-Info.plist */,
+				DC039970C3AB5A791301804AF15F053B /* Pods-MedicationSchedule-MedicationScheduleUITests-umbrella.h */,
+				591781E93328A9E1E2F18C0F4154CCC1 /* Pods-MedicationSchedule-MedicationScheduleUITests.debug.xcconfig */,
+				E8606DAE8576D68BB5CF96E2BD37329E /* Pods-MedicationSchedule-MedicationScheduleUITests.release.xcconfig */,
+			);
+			name = "Pods-MedicationSchedule-MedicationScheduleUITests";
+			path = "Target Support Files/Pods-MedicationSchedule-MedicationScheduleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A732856BD1F6FA212D166DBAF2465DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA51F34CB2FE1DEE7A6B8799C5D8B93 /* Pods-MedicationSchedule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E96E7F98796026C6760BA3D13C69C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F75157A5075DECD1D4512F9A6744CA6 /* fts3_tokenizer.h in Headers */,
+				B1D89872AC365C78155FF44EE9F28FEF /* SQLite.h in Headers */,
+				18808F9C139BA0E9059E72980F0BF908 /* SQLite.swift-umbrella.h in Headers */,
+				EF5E32C13CFA779B953F8F81AE3C67D6 /* SQLiteObjc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B583189A07CF2EB8B8150A3EE3329744 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB11C11C42731BAD581B25B7200CC52 /* Pods-MedicationScheduleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1FD60617763B8A6BB1D06052B9FF90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C201CD790253EF68723D30704A137F /* Pods-MedicationSchedule-MedicationScheduleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1D3A8318F603D191D121F70943FF08 /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
+			buildPhases = (
+				96E96E7F98796026C6760BA3D13C69C9 /* Headers */,
+				B91BEE056ED605FA41420BC2F6F79D91 /* Sources */,
+				A1DC26BE8ED6BB3E57EC282209CB9866 /* Frameworks */,
+				437C6008F3714B5A8E869C50746FC132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite.swift;
+			productName = SQLite.swift;
+			productReference = F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6BCDC78D9204C270CEADC18AE759142E /* Pods-MedicationSchedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DE317FF8343E4747465166DF120318 /* Build configuration list for PBXNativeTarget "Pods-MedicationSchedule" */;
+			buildPhases = (
+				5A732856BD1F6FA212D166DBAF2465DC /* Headers */,
+				1C4E2758918CE5FB05B417347566188B /* Sources */,
+				33325C9178C57921C2955DA9CEBEB22B /* Frameworks */,
+				90DA5D011926BDF590F0DD3FE62E3BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B67F486ED92BB61C088B115CCECED380 /* PBXTargetDependency */,
+			);
+			name = "Pods-MedicationSchedule";
+			productName = "Pods-MedicationSchedule";
+			productReference = FC628A1A7060E8D3695C5FD8C1CBC50D /* Pods_MedicationSchedule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4760FB09F1832FBD9DD8A441FC4D067 /* Pods-MedicationSchedule-MedicationScheduleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1363C2DA6ED90D61E31B2209408B88C3 /* Build configuration list for PBXNativeTarget "Pods-MedicationSchedule-MedicationScheduleUITests" */;
+			buildPhases = (
+				DB1FD60617763B8A6BB1D06052B9FF90 /* Headers */,
+				AC1FB453CEB01BA745EE574084B16CB5 /* Sources */,
+				EF75FF884452C03FD101431D5A0D0524 /* Frameworks */,
+				D8D06CF2D224314236C2F4B49F285D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31624C9C85ED578BFE99F5AF650CD3D /* PBXTargetDependency */,
+			);
+			name = "Pods-MedicationSchedule-MedicationScheduleUITests";
+			productName = "Pods-MedicationSchedule-MedicationScheduleUITests";
+			productReference = A0B54C59A1DB588EE7ECE6A442155634 /* Pods_MedicationSchedule_MedicationScheduleUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7CDF39B17FD9318BEF9D2FD69E11525 /* Pods-MedicationScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F9109710CDB8285DF08CA96B1F86FF /* Build configuration list for PBXNativeTarget "Pods-MedicationScheduleTests" */;
+			buildPhases = (
+				B583189A07CF2EB8B8150A3EE3329744 /* Headers */,
+				22B20E132DF98464FAC1E90E58DB0A4C /* Sources */,
+				B832A20F43C2552F6151DAAFAD3004B5 /* Frameworks */,
+				30D33968DA1ADCB7DA32B69EE556D532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3F68278117A547855F0E3A2046CD6AB /* PBXTargetDependency */,
+			);
+			name = "Pods-MedicationScheduleTests";
+			productName = "Pods-MedicationScheduleTests";
+			productReference = 71842A26AE9A2F0D5F37459C28573E8D /* Pods_MedicationScheduleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E2362488A99E095215B95FA0D78F9C0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BCDC78D9204C270CEADC18AE759142E /* Pods-MedicationSchedule */,
+				B4760FB09F1832FBD9DD8A441FC4D067 /* Pods-MedicationSchedule-MedicationScheduleUITests */,
+				C7CDF39B17FD9318BEF9D2FD69E11525 /* Pods-MedicationScheduleTests */,
+				3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30D33968DA1ADCB7DA32B69EE556D532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437C6008F3714B5A8E869C50746FC132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DA5D011926BDF590F0DD3FE62E3BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D06CF2D224314236C2F4B49F285D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C4E2758918CE5FB05B417347566188B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4AD5BE716115DC3C73D9D50B99FDEC /* Pods-MedicationSchedule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B20E132DF98464FAC1E90E58DB0A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F61A3B3EF47E0524250CC29A51D1B77 /* Pods-MedicationScheduleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1FB453CEB01BA745EE574084B16CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BD3B29AE82A3D5D7585E6EF6CDB715 /* Pods-MedicationSchedule-MedicationScheduleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91BEE056ED605FA41420BC2F6F79D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3A040DEACD188FBA57F28AFAADB057 /* AggregateFunctions.swift in Sources */,
+				2C4F38367FEF4F7C72224D9EB87B7F71 /* Blob.swift in Sources */,
+				188E0D4F7200FED3C7A1245F9F913072 /* Coding.swift in Sources */,
+				EE966B1A61C1960A3BBC22A783C27272 /* Collation.swift in Sources */,
+				16E32D96D226F5CA5ECE9021B4448A2C /* Connection.swift in Sources */,
+				1B13B36FAC4CB8F57794A2B328FDA679 /* CoreFunctions.swift in Sources */,
+				C64E97D5FC0802B08D7CA36AEC74A422 /* CustomFunctions.swift in Sources */,
+				A966409E4EB7EB56CBE6C9DFA0FC5B94 /* DateAndTimeFunctions.swift in Sources */,
+				5D1D42009E941070E4EDDE947A881181 /* Errors.swift in Sources */,
+				13DC37325FD7C005D5757A7A24879CFB /* Expression.swift in Sources */,
+				348B481DC980D7B5252368E2A54CFBF9 /* Foundation.swift in Sources */,
+				03F6349BC7F1C0F3BDFD63082CCE32DB /* FTS4.swift in Sources */,
+				A42659683986F68D9D4F244F1DB71C2F /* FTS5.swift in Sources */,
+				79E43357E56514CD6FE8A6F4B1D28C2E /* Helpers.swift in Sources */,
+				5AB7AA2D47C8BD4ED779FB58ADD2EB19 /* Operators.swift in Sources */,
+				444D048C8F52A4002F068AE6198AA5B7 /* Query.swift in Sources */,
+				4E3EDCB1C27B3725FD8AEFD7E61B9E17 /* RTree.swift in Sources */,
+				F6BB6C198A2522FF0633261964EB2A24 /* Schema.swift in Sources */,
+				D6E6E2AA38E0E6B0B7D1E0891F4FD12D /* Setter.swift in Sources */,
+				67F339D752FFF174485AB6F96EC6FA7E /* SQLite.swift-dummy.m in Sources */,
+				4A50D35274D871E14260F93489F87E32 /* SQLiteObjc.m in Sources */,
+				31AAD13A75FA67A504E265924E542827 /* Statement.swift in Sources */,
+				5BA891FB2BE2492499DD30FAD3D2F399 /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B67F486ED92BB61C088B115CCECED380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = 088D3764D0864B9850D7D9BF11255F8B /* PBXContainerItemProxy */;
+		};
+		D3F68278117A547855F0E3A2046CD6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MedicationSchedule";
+			target = 6BCDC78D9204C270CEADC18AE759142E /* Pods-MedicationSchedule */;
+			targetProxy = E742B849E88B9E5FC7DB4A720BF99BF6 /* PBXContainerItemProxy */;
+		};
+		F31624C9C85ED578BFE99F5AF650CD3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = 4371D397FA7241956E6EF77F0324E339 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2659E44B2E34289CE43339A2417FFDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088215B3ABFFEEED2CAE0D459D445CFF /* Pods-MedicationSchedule.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedicationSchedule/Pods-MedicationSchedule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedicationSchedule/Pods-MedicationSchedule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D30C8AA11FA892E0E28763A6DE9CB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8606DAE8576D68BB5CF96E2BD37329E /* Pods-MedicationSchedule-MedicationScheduleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedicationSchedule-MedicationScheduleUITests/Pods-MedicationSchedule-MedicationScheduleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedicationSchedule-MedicationScheduleUITests/Pods-MedicationSchedule-MedicationScheduleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6957D7F3826F9B061FA690D6549842C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2642AC7B4E4EA94926FD9C41FDAE056 /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B657FFA1E47F56D3C8E57979CA30544F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2642AC7B4E4EA94926FD9C41FDAE056 /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C94108C67CE2D4FD102DADE15303AEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CEE5334C041B34488E56FC2C5A4F80 /* Pods-MedicationScheduleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedicationScheduleTests/Pods-MedicationScheduleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedicationScheduleTests/Pods-MedicationScheduleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D12C8614DCA84F704C958DB7EEB7197D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059B26A094B4B8BBA6C1B33610BF2E8D /* Pods-MedicationSchedule.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedicationSchedule/Pods-MedicationSchedule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedicationSchedule/Pods-MedicationSchedule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBEB0ABE07D6F289E7E567C30935E2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253603F7273BE97283612D6D864C6707 /* Pods-MedicationScheduleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedicationScheduleTests/Pods-MedicationScheduleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedicationScheduleTests/Pods-MedicationScheduleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F01F2B1AFB0CCDFE297F6C757128B07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 591781E93328A9E1E2F18C0F4154CCC1 /* Pods-MedicationSchedule-MedicationScheduleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedicationSchedule-MedicationScheduleUITests/Pods-MedicationSchedule-MedicationScheduleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedicationSchedule-MedicationScheduleUITests/Pods-MedicationSchedule-MedicationScheduleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1363C2DA6ED90D61E31B2209408B88C3 /* Build configuration list for PBXNativeTarget "Pods-MedicationSchedule-MedicationScheduleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01F2B1AFB0CCDFE297F6C757128B07B /* Debug */,
+				2D30C8AA11FA892E0E28763A6DE9CB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1D3A8318F603D191D121F70943FF08 /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B657FFA1E47F56D3C8E57979CA30544F /* Debug */,
+				6957D7F3826F9B061FA690D6549842C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99DE317FF8343E4747465166DF120318 /* Build configuration list for PBXNativeTarget "Pods-MedicationSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12C8614DCA84F704C958DB7EEB7197D /* Debug */,
+				2659E44B2E34289CE43339A2417FFDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F9109710CDB8285DF08CA96B1F86FF /* Build configuration list for PBXNativeTarget "Pods-MedicationScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94108C67CE2D4FD102DADE15303AEBD /* Debug */,
+				DBEB0ABE07D6F289E7E567C30935E2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

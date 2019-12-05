@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_MedicationSchedule_MedicationScheduleUITests : NSObject
+@end
+@implementation PodsDummy_Pods_MedicationSchedule_MedicationScheduleUITests
+@end
